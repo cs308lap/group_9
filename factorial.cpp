@@ -2,7 +2,7 @@
 #include <iostream>
 
 int factorial(int n){
-    if(n<0){
+    while(n<0){
         std::cout<<"Please re-enter a positive number";
         return 0;
     }
