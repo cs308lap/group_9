@@ -3,7 +3,7 @@
 
 int factorial(int n){
     while(n<0){
-        cout<<"Please re-enter a positive number";
+        printf("Please re-enter a positive number");
         return 0;
     }
     if(n!=1){
