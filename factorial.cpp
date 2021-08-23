@@ -3,8 +3,8 @@
 
 int factorial(int n){
     while(n<0){
-        cout<<"Please re-enter a positive number";
-        return 0;
+        // cout<<"Please re-enter a positive number";
+        return -1;
     }
     if(n!=1){
 	return(n * factorial(n-1));
